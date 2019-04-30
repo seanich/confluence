@@ -2,7 +2,7 @@ version: '2'
 
 services:
   confluence:
-    image: blacklabelops/confluence
+    image: seanich/confluence
     container_name: confluence
     hostname: confluence
     networks:
@@ -19,8 +19,8 @@ services:
       - 'CONFLUENCE_PROXY_SCHEME='
       - 'CONFLUENCE_DELAYED_START='
     labels:
-      com.blacklabelops.description: "Atlassian Confluence"
-      com.blacklabelops.service: "confluence"
+      com.seanich.description: "Atlassian Confluence"
+      com.seanich.service: "confluence"
 
   postgresql:
     image: blacklabelops/postgres
