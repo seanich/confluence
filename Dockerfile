@@ -1,7 +1,7 @@
 FROM blacklabelops/java:server-jre.8.162
 MAINTAINER Steffen Bleul <sbl@blacklabelops.com>
 
-ARG CONFLUENCE_VERSION=6.15.6
+ARG CONFLUENCE_VERSION=7.0.1
 # permissions
 ARG CONTAINER_UID=1000
 ARG CONTAINER_GID=1000
